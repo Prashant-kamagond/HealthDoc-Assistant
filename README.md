@@ -64,6 +64,16 @@ bash
 ollama pull mistral
 This downloads the Mistral model (~4GB). Takes a few minutes.
 
+HealthDoc-Assistant/
+├── app.py                 # Main Streamlit application
+├── requirements.txt       # Python dependencies
+├── .gitignore            # Git ignore file
+├── README.md             # This file
+└── docs/                 # Your health documents
+    ├── health_tips.txt
+    ├── nutrition.txt
+    └── exercise.txt
+
 Step 5: Run the Application
 bash
 streamlit run app.py
