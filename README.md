@@ -52,3 +52,19 @@ A **document-grounded health chatbot** powered by **Ollama** and **LangChain**. 
 **Windows:**
 ```powershell
 irm https://ollama.com/install.ps1 | iex
+Step 2: Clone Repository
+bash
+git clone https://github.com/Prashant-kamagond/HealthDoc-Assistant.git
+cd HealthDoc-Assistant
+Step 3: Install Python Dependencies
+bash
+pip install -r requirements.txt
+Step 4: Download Ollama Model
+bash
+ollama pull mistral
+This downloads the Mistral model (~4GB). Takes a few minutes.
+
+Step 5: Run the Application
+bash
+streamlit run app.py
+The app will open at: http://localhost:8501
